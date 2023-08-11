@@ -1,0 +1,269 @@
+body{
+    background: #ece2e2;
+    align-items: center;
+    margin: 0;
+   
+}
+
+
+/*.square{
+    border: 3px solid rgb(211, 211, 211);;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    left: 20%;
+    top:200px;
+    border-radius: 30%;
+    background:burlywood ;
+    box-shadow: inset 15px 5px 10px -5px transparent;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 110px;
+   border-top-color:transparent;
+  transform: rotate(60deg);
+    transition: 10s linear;
+    box-shadow: 2px 2px 2px 1px rgb(255, 255, 255);;
+    animation-duration: 10s;
+   animation-iteration-count: 10s;
+
+}
+
+
+
+.square::before{
+    content: '';
+    position: absolute;
+    border: 3px solid rgb(211, 211, 211);;
+    width: 40px;
+    height: 120px;
+    background: burlywood;
+    border-radius: 50%;
+   transform: rotate(90deg);
+  top: -13vh;
+    left: 12vh;
+    z-index: 2;
+    transform-origin: center ;
+
+}
+
+
+
+/*.square-1{
+ 
+   border: 5px dotted black; 
+   width: 200px;
+   height: 200px;
+   position: relative;
+   right:400px;
+   top:200px;
+   transform-origin: bottom;
+   /*transform: rotateY(180deg);
+   background: black;
+   transform: scale(1);
+   z-index: -3;
+   transform: skewY(45deg);}*/
+
+   /*.circle{
+    position: relative;
+    border: 2px solid red;
+    width:50px;
+    height: 50px;
+    left: 38vh;
+    border-radius: 100%;
+background: red;
+animation-name: circle;
+animation-duration: 60s;
+animation-iteration-count: 5s;
+transform-origin: center;
+transition: all infinite ;
+
+   
+   }
+
+
+
+   @keyframes circle {
+   
+    50% { transform: rotate(60deg);}
+  70% {transform: rotate(-70deg);}
+   }
+
+
+
+
+   .circle1{
+    position: absolute;
+    border: 2px solid green;
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+  background: green;
+bottom: 30vh;
+    left: 15vh;
+   }
+
+
+   .circle2{
+    position: absolute;
+    border: 2px solid purple;
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    background: purple;
+  left: 30vh;
+  bottom: 30vh;
+   }
+
+
+   .circle3{
+    position: absolute;
+    border: 2px solid orangered;
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    background: orangered;
+    left: 50vh;
+    bottom: 35vh;
+    
+   }
+
+
+   .circle7{
+    position: absolute;
+    border: 2px solid black;
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    left: 45vh;
+    background: black;
+    top: 30vh;
+    bottom: 70vh;
+   }
+
+
+   
+   .circle4{
+    position: absolute;
+    border: 2px solid grey;
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    left: 40vh;
+    background: gray;
+
+    bottom: 33vh;
+   }
+
+
+   
+   .circle6{
+    position: absolute;
+    border: 2px solid indigo;
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    left: 40vh;
+    background: indigo;
+  bottom: 43vh;
+   }
+
+*/
+h1{
+text-align: center;
+text-shadow: 0 0 5px black;
+font-size: 5rem;
+
+}
+
+p{
+    line-height: 1;
+    word-spacing: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+   
+}
+
+
+.banner{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.background,.foreground{
+position: absolute;
+height: 100%;
+width: 100%;
+
+
+}
+
+.background{
+    transform: translateZ(-10px) scale(2);
+
+}
+
+.foreground{
+    transform: translateZ(-5px) scale(1.7);
+    
+}
+
+
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+   /*.s1{
+    border: 2px solid blue;
+    width:150px;
+    height: 150px;
+    background: blue;
+   }
+
+
+   
+
+   .s2{
+    border: 2px solid blue;
+    width:150px;
+    height: 150px;
+    background: blue;
+   }
+
+
+   
+
+   .s3{
+    border: 2px solid blue;
+    width:150px;
+    height: 150px;
+    background: blue;
+   }
+
+
+   
+
+   .s4{
+    border: 2px solid blue;
+    width:150px;
+    height: 150px;
+    background: blue;
+   }
+
+
+
+   .scroll{
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    z-index: -1;
+   }
